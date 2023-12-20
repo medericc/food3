@@ -1,0 +1,49 @@
+.footer {
+    background-color: #333;
+    color: #ffff;
+    padding: 40px 0;
+}
+
+
+.grid {
+display: flex;
+flex-direction: row-reverse
+}
+
+
+
+
+
+.grid-item {
+    padding: 0 20px;
+}
+
+.footer__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.footer__icon {
+    margin-right: 10px;
+}
+
+.footer a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style: none;
+    
+}
+.footer li {
+    display: flex;
+    align-items: center; 
+}
+.footer li i {
+    margin-right: 10px; 
+}

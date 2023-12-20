@@ -1,0 +1,21 @@
+
+.coeur {
+    display: flex;
+    align-items: center;
+}
+
+.fas.fa-heart {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(255, 61, 103);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.fas.fa-heart:hover {
+    color: rgb(255, 31, 67);
+}
+
+.fas.fa-heart--active {
+    color: rgb(255, 31, 67);
+}
