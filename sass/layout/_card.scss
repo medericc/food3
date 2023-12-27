@@ -2,8 +2,11 @@
 .card-wrapper {
     
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
 
 .card {

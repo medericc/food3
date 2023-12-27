@@ -6,9 +6,15 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Shrikhand';
     line-height: 1.6;
     background-color: #f4f4f4;
+}
+
+a,p {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: initial;
 }
 
 .containers {

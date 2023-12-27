@@ -1,21 +1,33 @@
-
 .coeur {
-    display: flex;
-    align-items: center;
-}
+  display: flex;
+  align-items: center;
+  position: relative;
 
-.fas.fa-heart {
-    background-color: rgb(255, 255, 255);
-    border: none;
-    color: rgb(255, 61, 103);
-    font-size: 1.5em;
-    cursor: pointer;
-}
+  .fa-solid {
+    position: absolute;
+    font-size: 30px;
+    background: linear-gradient(to bottom, #FF79DA, #9356DC);
+    color: transparent;
+    z-index: 1;
+    opacity: 0;
+  }
 
-.fas.fa-heart:hover {
-    color: rgb(255, 31, 67);
-}
+  .fa-regular {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    opacity: 1;
+  }
 
-.fas.fa-heart--active {
-    color: rgb(255, 31, 67);
+  &:hover {
+    .fa-regular {
+      opacity: 0;
+      transform: translateY(-10px); /* Ajustez la valeur selon vos besoins */
+    }
+
+    .fa-solid {
+      opacity: 1;
+      transform: translateY(-10px); /* Ajustez la valeur selon vos besoins */
+    }
+  }
 }

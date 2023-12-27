@@ -1,15 +1,11 @@
 .palette-image {
     width: 100%;
-    height: auto;
+    height: 400px;
     margin-top: -20px;
     position: relative;
     z-index: -1;
-}
-.palette2 {
-    
-    padding-top: 10px;
-    padding-right: 15%;
-    padding-bottom: 50px;
-    padding-left: 15%;
-}
+    object-fit: cover;
+  }
+  
 
+  

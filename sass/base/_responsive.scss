@@ -1,66 +1,92 @@
 @media only screen and (max-width: 768px) {
-    .header img {
-        max-width: 100%;
-    }
-
+    .header img,
     .header2 img {
-        max-width: 100%;
+      max-width: 100%;
+ 
+      height: auto;
     }
-
+  
     .grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
-
-
+  
     .palette2 {
-        position: relative;
-        z-index: 1;
-        margin-top: -40px;
-        padding-bottom: 40px;
-        background-color: #F6F6F6;
-        border-radius: 40px 40px 0 0;
+      position: relative;
+      z-index: 1;
+      margin-top: -40px;
+      padding-bottom: 40px;
+      background-color: #f6f6f6;
+      border-radius: 40px 40px 0 0;
     }
-
+  
     .grid-item {
-        padding: 0 20px;
+      padding: 0 20px;
     }
+  
     .steps__wrapper {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        text-align: center; 
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
     }
+  
     .containers {
-        padding: 30px 20px;
-        display: flex;
-        flex-direction: column;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
     }
-    
+  
     .card {
-        margin: 15px 0;
-        display: flex;
-        flex-direction: column;
+      margin: 15px 0;
+      display: flex;
+      flex-direction: column;
     }
+  
     .card-wrapper {
-        display: block;
-        
+      display: block;
     }
+  
     .header img {
-        width: 60%; 
-        height: auto;
+      width: 60%;
+      height: auto;
     }
+  
     .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
     }
+  
     .articles {
-        padding: 30px 20px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;}
-}
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+  
+    .footer {
+      flex-direction: column;
+    
+      ul {
+        list-style: none;
+        display: block;
+      }
+      .footer__title {
+        font-size: 2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+  }
 
+  .grid {
+      flex-direction: column;
+  }
 
-   
+  .grid-item {
+      padding: 10px 0;
+  }
+      
+      
+  }
+  
