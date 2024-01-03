@@ -10,6 +10,7 @@
     color: transparent;
     z-index: 1;
     opacity: 0;
+    -webkit-background-clip: text;
   }
 
   .fa-regular {
@@ -22,12 +23,10 @@
   &:hover {
     .fa-regular {
       opacity: 0;
-      transform: translateY(-10px); /* Ajustez la valeur selon vos besoins */
     }
 
     .fa-solid {
       opacity: 1;
-      transform: translateY(-10px); /* Ajustez la valeur selon vos besoins */
     }
   }
 }
