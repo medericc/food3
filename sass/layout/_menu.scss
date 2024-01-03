@@ -1,0 +1,70 @@
+.title2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-logo-rest {
+    font-family: "Shrikhand", cursive;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 28px;
+    margin-right: 50px;
+}
+.menus {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.soustitre
+{
+    width: 45px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: #99E2D0 2px solid;
+}
+.cartemenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 15px;
+}
+.cdescription {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cprix {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 {
+    
+        position: relative;
+        z-index: 1;
+        margin-top: -40px;
+        padding-bottom: 40px;
+        background-color: #F6F6F6;
+        border-radius: 40px 40px 0 0;
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+.tout {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
